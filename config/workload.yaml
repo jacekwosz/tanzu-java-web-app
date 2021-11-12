@@ -8,9 +8,9 @@ metadata:
 spec:
   params:
     - name: run-image
-      value: your-registry.io/project/tanzu-java-web-app
+      value: harbor.vmware.tanzu/library/tanzu-java-web-app
   source:
     git:
-      url: https://github.com/sample-accelerators/tanzu-java-web-app
+      url: https://github.com/jacekwosz/tanzu-java-web-app
       ref:
         branch: main
